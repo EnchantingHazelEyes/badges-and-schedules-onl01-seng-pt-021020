@@ -9,3 +9,8 @@ def batch_badge_creator(attendees)
     attendees.each{|attendees| badges << "Hello, my name is #{attendees}."}
   return badges
 end
+
+def assign_rooms(speakers, rooms)
+  holding_place = []
+  
+  
