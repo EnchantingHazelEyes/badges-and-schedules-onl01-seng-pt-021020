@@ -12,6 +12,6 @@ end
 
 def assign_rooms(speakers)
   holding_place = []
-    speakers.each_with_index{|speaker
+    speakers.each_with_index{|speaker,room|}
   
   
