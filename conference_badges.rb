@@ -22,6 +22,5 @@ def printer(attendees)
   results = []
   attendees.each{|attendees| results << batch_badge_creator(attendees)}
    # puts batch_badge_creator(attendee)
-  end
 end
   
