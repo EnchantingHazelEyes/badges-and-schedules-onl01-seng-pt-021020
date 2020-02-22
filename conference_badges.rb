@@ -10,7 +10,8 @@ def batch_badge_creator(attendees)
   return badges
 end
 
-def assign_rooms(speakers, rooms)
+def assign_rooms(speakers)
   holding_place = []
+    speakers.each_with_index
   
   
