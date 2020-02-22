@@ -16,9 +16,9 @@ def assign_rooms(speakers)
     return holding_place
 end
   
+attendees = ["Edsger", "Ada", "Charles", "Alan", "Grace", "Linus", "Matz"]
+
 def printer(attendees)
-  
   puts batch_badge_creator(attendees)
-  print assign_rooms()
 end
   
