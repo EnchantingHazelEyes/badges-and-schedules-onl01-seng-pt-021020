@@ -16,7 +16,7 @@ def assign_rooms(speakers)
     return holding_place
 end
   
-def printer(results)
-print batch_badge_creator
+def printer(attendees)
+print batch_badge_creator(attendees)
 end
   
