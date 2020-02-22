@@ -14,8 +14,9 @@ def assign_rooms(speakers)
   holding_place = []
     speakers.each_with_index{|speaker,room| holding_place << "Hello, #{speaker}! You'll be assigned to room #{room + 1}!"}
     return holding_place
-  end
+end
   
 def printer(results)
-  
+print batch_badge_creator
+end
   
