@@ -19,7 +19,8 @@ end
 attendees = ["Edsger", "Ada", "Charles", "Alan", "Grace", "Linus", "Matz"]
 
 def printer(attendees)
-  attendees.each do |attendee|
+  results = []
+  attendees.each{|attendees| results << batch_badge_creator
     puts batch_badge_creator(attendee)
   end
 end
