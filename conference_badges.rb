@@ -12,8 +12,8 @@ end
 
 def assign_rooms(speakers)
   holding_place = []
-    speakers.each_with_index{|speaker,room| holding_place[speaker] = room}
-    
+    speakers.each_with_index{|speaker,room| puts "Hello, #{speaker}! You'll be assigned to room "
+    #holding_place[speaker] = room}
   end
   
   
