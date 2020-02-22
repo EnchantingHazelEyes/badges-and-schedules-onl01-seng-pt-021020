@@ -20,7 +20,7 @@ attendees = ["Edsger", "Ada", "Charles", "Alan", "Grace", "Linus", "Matz"]
 
 def printer(attendees)
   attendees.each do |results|
-    puts batch_badge_creator(results)
+    puts batch_badge_creator(attendees)
   end
 end
   
